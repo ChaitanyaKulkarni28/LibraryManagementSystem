@@ -1,0 +1,201 @@
+.body{
+	font-family: Verdana;
+	font-size: 20px;
+	line-height: 25px;
+}
+
+/*homepage*/
+.button{
+	height: 30px;
+	width:50px;
+	background-color: #42083b;
+	color:#ffffff;
+	border: 1px solid #42083b;
+	border-radius: 2px;
+}
+
+#kk{
+	height: 30px;
+	width:50px;
+	background-color: #42083b;
+	color:#ffffff;
+	border: 1px solid #42083b;
+	border-radius: 2px;
+}
+.title-row{
+	background-image:url("../images/lib5.jpg");
+	background-size: cover;
+	height: 272px;
+	padding: 150px 0px 50px 50px;
+}
+
+.title-row:before{
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 272px;
+	width: 100%;
+	background-color: rgba(0,0,0,0.6);
+}
+
+.page-title {
+    font-family: Verdana;
+    font-size: 50px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.navbar-default{
+	background-color: #000000;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #e5e5e5;
+	margin: 0px;
+
+}
+.navbar-default .container-fluid{
+	padding: 0px;
+}
+
+.navbar-nav>li>a {
+    line-height: 20px;
+    font-weight: 700;
+    font-size: 18px;
+}
+.content-row{
+	background-color: #e5e5e5;
+	padding: 50px;
+}
+
+.content-title{
+	font-size: 40px;
+	font-family: Verdana;
+	text-align: center;
+	margin-top: 20px;
+	color: #42083b;
+}
+
+.book-search input[type="text"]{
+	margin: 20px;
+    height: 30px;
+    color: #42083b;
+}
+.book-search input[type="submit"]{
+	height: 30px;
+	width:50px;
+	background-color: #42083b;
+	color:#ffffff;
+	border: 1px solid #42083b;
+	border-radius: 2px;
+}
+
+.book-search input[type="submit"]:hover{
+	background-color: #ffffff;
+	color:#42083b;
+	border: 1px solid #42083b;
+}
+
+.search-res table{
+    width: 100%;
+    display:block;
+}
+.search-res thead {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+}
+.search-res tbody {
+    height: 200px;
+    display: inline-block;
+    width: 100%;
+    overflow: auto;
+     padding: 10px;
+}
+.search-res tbody td, thead th {
+    width: 240px; /*change width in case you want to increase number of fields*/
+
+}
+
+.search-res td, th {
+    padding: 10px;
+}
+
+.search-res td input[type="button"]{
+    background-color: #42083b;
+	color:#ffffff;
+	border: 1px solid #42083b;
+	border-radius: 2px;
+	height: 30px;
+	padding: 5px 7px;
+
+}
+.search-res td input[type="button"]:hover{
+	background-color: #ffffff;
+	color:#42083b;
+	border: 1px solid #42083b;
+}
+
+/*Check dues page*/
+.dues input[type="text"]{
+	margin: 20px;
+    height: 30px;
+    color: #42083b;
+}
+.dues input[type="submit"]{
+	height: 30px;
+	width:100px;
+	background-color: #42083b;
+	color:#ffffff;
+	border: 1px solid #42083b;
+	border-radius: 2px;
+}
+
+.dues input[type="submit"]:hover{
+	background-color: #ffffff;
+	color:#42083b;
+	border: 1px solid #42083b;
+}
+
+.dues-res table{
+    width: 100%;
+    display:block;
+}
+.dues-res thead {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+}
+.dues-res tbody {
+    height: 200px;
+    display: inline-block;
+    width: 100%;
+    overflow: auto;
+     padding: 10px;
+}
+.dues-res tbody td, thead th {
+    width: 240px; /*change width in case you want to increase number of fields*/
+
+}
+
+.dues-res td, th {
+    padding: 10px;
+}
+
+.dues-res td input[type="button"]{
+    background-color: #42083b;
+	color:#ffffff;
+	border: 1px solid #42083b;
+	border-radius: 2px;
+	height: 30px;
+	padding: 5px 7px;
+
+}
+.dues-res td input[type="button"]:hover{
+	background-color: #ffffff;
+	color:#42083b;
+	border: 1px solid #42083b;
+}
+
+.dues table{
+	margin: 0 35% 0 35%;
+}
